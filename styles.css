@@ -1,0 +1,180 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+  ;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.first-heading {
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding:7% 15%;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+.download {
+  margin: 5% 3% 5% 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.feautre-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding-left: 3% 2%;
+}
+
+.btn-outline-lite {
+  background-color: #ff4c68;
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-primary {
+  border-color: #ef8172;
+  color: #ef8172;
+}
+
+.btn-primary {
+  background-color: #ef8172;
+  border: #ef8172;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.cta {
+  font-size: 3rem;
+}
+
+.endbtn {
+  margin: 5% 3% 5% 0;
+}
+
+#footer {
+  background-color: white;
+}
+
+.footer {
+  margin: 1%;
+}
